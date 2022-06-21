@@ -1,0 +1,236 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Heyy",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "tech",
+      "patterns": [
+        "Diploma",
+        "B.Tech",
+        "BE",
+        "Bechlors",
+        "M.Tech",
+        "ME",
+        "mtech",
+        "Masters"
+      ],
+      "responses": [
+        "Diploma,B.Tech or M.Tech?"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "What are the Available Courses",
+        "Courses",
+        "Seats",
+        "Admission",
+        "Admission in MTech",
+        "Admission in BTech",
+        "Admission in Diploma"
+      ],
+      "responses": [
+        "\nAvailable Courses are:\n1. Diploma (Total Seats:140)\n2. B.Tech(Total Seats:120)\n3. M.Tech(Total Seats:80)"
+      ]
+    },
+    {
+      "tag": "eligibiltiy",
+      "patterns": [
+        "What are the requirements?",
+        "eligibiltiy",
+        "requirements",
+        "requirement for diploma",
+        "requirement for btech",
+        "requirement for mtech",
+        "Eligibiltiy for BTech",
+        "Eligibiltiy for MTech",
+        "Eligibiltiy for Diploma"
+      ],
+      "responses": [
+        "\nFor DIPLOMA - 10th or 12th Pass\n\nFor BTECH - Diploma Cleared 10+2 with Physics, Chemistry, and Mathematics + Entrance Exam acceptable by the University\n\nFor MTECH - Must have a Bachelor's degree in any engineering stream with at least 55% or equivalent CGPA.\n**For NRI Student - English must be one of the subjects in last Qualifing Examination."
+        
+      ]
+    },
+    {
+      "tag": "buspayments",
+      "patterns": [
+        "What are the transport Fees",
+        "Bus Fees",
+        "How do I Pay Bus Fees?",
+        "Transport Fees",
+        "Pay",
+        "Payment",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you accept cash only?"
+      ],
+      "responses": [
+        "\nTransport Fees are ~15,000/- (* Fees may vary according to your area.).\n\nNOTE:- Please Go through the Bus Stop list at the Transport Department.\n\nPayment Methods:\n-Cash\n -Check\n -VISA\n -Mastercard\n -UPI Payments.\n"
+      ]
+    },
+    {
+      "tag": "feespayments",
+      "patterns": [
+        "How do I Pay Semester Fees?",
+        "What is the fee structure",
+        "Fees",
+        "Fees for BTech",
+        "Fees for btech",
+        "Fees for MTech",
+        "Fees for mtech",
+        "Fees for Masters",
+        "Fees Payment"
+      ],
+      "responses": [
+        "\nDiploma Fees = 1,00,000/- Per Year\nB.Tech Fess = 1,50,000/- Per Year\nM.Tech Fees = 3,50,000/- Per Year.\nTransport Fees are ~15,000/- (* Fees may vary according to your area.).\n\nPayment Methods:\nCash, Check, VISA, Mastercard and UPI Payments.\n"
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "What is Bus Schedule",
+        "What are the Bus Stops",
+        "timings of the Bus",
+        "What are the timings of the Bus"
+      ],
+      "responses": [
+        "Bus Reaches at stop around 7:00 AM\nKindly Check the Bus Stop List at the Transport Department."
+      ]
+    },
+    {
+      "tag": "visit",
+      "patterns": [
+        "What are the college visiting hours?",
+        "visit",
+        "Visit timings",
+        "College Visit Timings"
+      ],
+      "responses": [
+        "\nVisiting Hours are:\t10:00 AM to 02:00 PM.\nAdmin Desk Timing:\t09:00 AM to 04:00 PM."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What are the fees",
+        "Fees",
+        "Fees for BTech",
+        "Fees for btech",
+        "Fees for MTech",
+        "Fees for mtech",
+        "Fees for Masters",
+        "Fees for Bechlors"
+      ],
+      "responses": [
+        "\nDiploma Fees = 1,00,000/- Per Year\nB.Tech Fess = 1,50,000/- Per Year\nM.Tech Fees = 3,50,000/- Per Year"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "process",
+      "patterns": [
+        "what is the admission process",
+        "what is the admission procedure",
+        "admission procedure",
+        "admission process",
+        "process",
+        "procedure"
+      ],
+      "responses": [
+        "\nStep -1 Fill the Application From.\n(You can fill the application form through our official Website or from our\n admission department.)\nStep -2 After filling the form submit the required documents at our admission\n department and pay the required Fees and Deposit.\nStep -3 Take a visit at our Campus.\n\n**Last Date to Fill the Application Form is - 20 December '22.\nFor more information Go to our Website: www.charusat.ac.in\n"
+      ]
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+        "what are the required documents",
+        "required documents",
+        "documents"
+      ],
+      "responses": [
+        "\nFor DIPLOMA - \n1. 10th or 12th Marksheet.\n2. School Leaving Certificate.\n3. 2 Passport Size Photos.\n\nFor BTECH  - \n1. Diploma Completion Certificate.\n2. 10th or 12th Marksheet.\n3. 2 Passport Size Photos.\n\nFor MTECH  - \n1. Diploma Completion Certificate.\n2. BTech Completion Certificate.\n3. 2 Passport Size Photos.\n"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "what is the contact number",
+        "contact number",
+        "contact",
+        "admission desk contact number",
+        "mobile number",
+        "address"
+      ],
+      "responses": [
+        "\nADMISSION DESK - \n02697-265011\n02697-265021\n\nADDRESS - \nCHARUSAT Campus Off. Nadiad-Petlad Highway, Changa 388 421, Anand, \nGujarat, INDIA.\n"
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "What are the available departments?",
+        "departments",
+        "departments in btech",
+        "departments in mtech",
+        "departments in diploma"
+      ],
+      "responses": [
+        "\nDepartments Available in B.TECH / M.TECH / DIPLOMA:\n\n1. Computer Science and Engineering\n2. Electrical Engineering\n3. Aerospace Engineering\n4. Civil Engineering\n5. Mechanical Engineering\n6. Chemical Engineering\n"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "What are the Scholarship Options?",
+        "Scholarship"
+      ],
+      "responses": [
+        "\nFor DOMESTIC and INTERNATIONAL Students:\n1. Government Scholarship\n2. Late Maniben Shankarbhai Patel Scholarship\n3. Late Shankarbhai Chhaganbhai Patel Scholarship \n4. Late Dahiben Ravjibhai Patel & Dineshbhai Ravjibhai Patel Merit Cum Means Scholarship\n\n**For INTERNATIONAL Students - To get the benefits of Scholarship student\n must get 'CGPA < 8.0'\n\nFor more information Go to our Website: www.charusat.ac.in\n"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Pay",
+        "Payment",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    }
+  ]
+}
